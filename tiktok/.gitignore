@@ -1,0 +1,7 @@
+# 실제 채널 설정은 커밋하지 않는다
+channels.toml
+
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/

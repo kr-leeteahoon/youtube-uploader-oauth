@@ -1,0 +1,16 @@
+[project]
+name = "tiktok-uploader"
+version = "0.1.0"
+description = "채널별 TikTok 업로더 (TikTok Studio 웹 자동화)"
+requires-python = ">=3.11"
+dependencies = ["playwright>=1.44"]
+
+[project.scripts]
+tiktok-upload = "tiktok_uploader.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["tiktok_uploader"]
